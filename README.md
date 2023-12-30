@@ -1,1 +1,1 @@
-# JavascriptProjects
+# Guess the number game
