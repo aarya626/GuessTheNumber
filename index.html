@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>GuessTheNumber</title>
 </head>
 
 <body>
-    <h1>Number guessing game</h1>
+    <h1 id="heading">
+        <bold>Number Guessing Game</bold>
+    </h1>
     <div class="container">
-        <p>Try to guess a number between 1 and 100 <br><br>
-            You have 10 attempts
-        </p>
+        <p>Try to guess a number between 1 and 100</p>
+        <p> You have 10 attempts to guess the number right </p>
         <h1>Guess a number</h1>
-        <input name="number" id="input+number">
-        <input type="submit" value="Submit guess">
-        <p>Previous guesses: </p>
-        <p>Guesses remaining: 10</p>
+        <input type="text" name="number" id="input_number"><br>
+        <input type="submit" id="button" value="Submit guess">
+        <p>Previous guesses: <span class="previous"></span></p>
+        <p>Guesses remaining: <span class="remaining">10</span></p>
+        <p class="message"></p>
     </div>
 </body>
 
