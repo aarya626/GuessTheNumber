@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    width: 300px;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-color: #494949;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 27px;
+    width: 500px;
+}
+
+.container{
+    box-sizing: border-box;
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    background-color: #2b2a2a;
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+#button{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 22px;
+    margin-top: 30px;
+}
+#input_number{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 5px;
+    border: 5px solid #6c6d6d;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
